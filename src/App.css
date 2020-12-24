@@ -1,0 +1,26 @@
+.app__name {
+  min-height: 100px;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem !important;
+  font-weight: 900;
+  color: rgb(58, 16, 88);
+}
+
+.app__name > .MuiSvgIcon-root {
+  font-size: 5rem;
+  color: rgb(209, 136, 1);
+}
+
+/* Media Query for devices smaller than 480px */
+@media only screen and (max-width: 480px) {
+  .app__name {
+    font-size: 2.3rem !important;
+  }
+  .app__name > .MuiSvgIcon-root {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,40 @@
+.chartDataTable {
+  width: 90%;
+  max-width: 90%;
+  margin: 10px auto;
+  border-radius: 15px;
+  max-height: 250px;
+  overflow-y: auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.chartDataTable table {
+  width: 100%;
+  text-align: center;
+}
+
+.chartDataTable > table > thead {
+  font-size: 1.05rem;
+  color: antiquewhite;
+}
+
+.chartDataTable > table th {
+  background-color: rgb(223, 73, 73);
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.chartDataTable > table tr {
+  background-color: #fff;
+}
+
+.chartDataTable > table td {
+  padding: 5px;
+  color: darkslategray;
+}
+
+.chartDataTable > table tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
